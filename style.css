@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(213, 239, 255);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: rgb(25, 63, 81);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.digit {
+    font-size: 150px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1e136a;
+}
+
+.txt {
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #494724;
+    font-weight: 400;
+}
+
+#buttons {
+    margin-top: 50px;
+}
+
+.btn {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#start {
+    background-color: #86fb85;
+}
+
+#stop {
+    background-color: #ec7979;
+}
+
+#reset {
+    background-color: #fef892;
+}
+
+#start:hover {
+    background-color: #22d220;
+}
+
+#stop:hover {
+    background-color: #ee2e2e;
+}
+
+#reset:hover {
+    background-color: rgb(255, 240, 36);
+}
